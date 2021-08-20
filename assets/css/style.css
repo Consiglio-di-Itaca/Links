@@ -1,0 +1,13 @@
+@charset "UTF-8";
+section .links a {
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 0;
+  border: 0;
+  background-color: orange;
+}
+
+section .links a.new::after {
+  content: "NOVITÀ";
+}
+/*# sourceMappingURL=style.css.map */

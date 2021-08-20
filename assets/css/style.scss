@@ -1,16 +1,16 @@
-section{
-    .links{
-        a{
-            width: 100%;
-            padding: 16px 24px;
-            border-radius: 0;
-            border: 0;
-            background-color: orange;
-            &:.new{
-                &::after{
-                    content: "NOVITÀ";
-                }
-            }
+section {
+  .links {
+    a {
+      width: 100%;
+      padding: 16px 24px;
+      border-radius: 0;
+      border: 0;
+      background-color: orange;
+      &.new {
+        &::after {
+          content: "NOVITÀ";
         }
+      }
     }
+  }
 }

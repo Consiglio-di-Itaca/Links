@@ -1,14 +1,31 @@
-section {
-  .links {
-    a {
-      width: 100%;
-      padding: 16px 24px;
-      border-radius: 0;
-      border: 0;
-      background-color: orange;
-      &.new {
-        &::after {
-          content: "NOVITÀ";
+body {
+  padding: 20px;
+  header {
+    h1 {
+      text-align: center;
+    }
+  }
+  section {
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      a {
+        width: 100%;
+        padding: 16px 24px;
+        border-radius: 0;
+        border: 0;
+        background-color: orange;
+        text-decoration: none;
+        &.new {
+          position: relative;
+          &::after {
+            content: "NOVITÀ";
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-50%, -50%);
+          }
         }
       }
     }

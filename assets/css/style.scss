@@ -18,7 +18,7 @@ a {
 }
 
 .small {
-  max-width: 90px !important;
+  max-width: 34% !important;
   flex-direction: column !important;
   align-items: center !important;
 }
@@ -45,11 +45,13 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
     img {
       margin: 0 auto;
       border-radius: 50%;
       background-color: #fff;
-      max-width: 90px;
+      max-width: 100px;
     }
     h1 {
       text-align: center;
@@ -58,8 +60,10 @@ body {
       line-height: 40px;
     }
     p {
+      font-size: 18px;
       text-align: center;
       color: #fff;
+      margin-bottom: 0;
     }
   }
   main {
@@ -69,11 +73,11 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 16px;
-        max-width: 300px;
+        max-width: 375px;
         margin: 0 auto;
         a {
           text-align: center;
-          padding: 11px 25.5px;
+          padding: 16px 25.5px;
           border-radius: 8px;
           border: 0;
           text-decoration: none;

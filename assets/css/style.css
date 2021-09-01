@@ -19,7 +19,7 @@ a {
 }
 
 .small {
-  max-width: 90px !important;
+  max-width: 34% !important;
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
       -ms-flex-direction: column !important;
@@ -59,13 +59,15 @@ body header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 body header img {
   margin: 0 auto;
   border-radius: 50%;
   background-color: #fff;
-  max-width: 90px;
+  max-width: 100px;
 }
 
 body header h1 {
@@ -76,8 +78,10 @@ body header h1 {
 }
 
 body header p {
+  font-size: 18px;
   text-align: center;
   color: #fff;
+  margin-bottom: 0;
 }
 
 body main section .links {
@@ -91,13 +95,13 @@ body main section .links {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 16px;
-  max-width: 300px;
+  max-width: 375px;
   margin: 0 auto;
 }
 
 body main section .links a {
   text-align: center;
-  padding: 11px 25.5px;
+  padding: 16px 25.5px;
   border-radius: 8px;
   border: 0;
   text-decoration: none;

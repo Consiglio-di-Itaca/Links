@@ -22,6 +22,12 @@ a {
   flex-direction: column !important;
   align-items: center !important;
 }
+
+.big {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
 .simple {
   background-color: #fff;
   p {
@@ -86,16 +92,31 @@ body {
           width: 100%;
           flex-direction: row;
           place-content: center;
+          &.inEvidenza {
+            background-image: url("../img/BG_inEvidenza.png");
+            background-position: center;
+            background-size: cover;
+            p {
+              color: #000;
+            }
+          }
           &.new {
             position: relative;
             &::after {
               content: "NOVITÀ";
               font-weight: bold;
-              background: #0ecdc1;
-              padding: 6px 10px;
-              font-size: 10px;
+
+              background: radial-gradient(
+                67.42% 65.41% at 34.48% 26.69%,
+                #9a4dff 26.56%,
+                #9825ce 100%
+              );
+              box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+              border-radius: 16px;
+              padding: 8px 16px 7px;
+              font-size: 12px;
               position: absolute;
-              top: 0;
+              top: 5px;
               right: -10px;
               transform: translate(0%, -50%);
               box-shadow: 0px 3.2887697219848633px 3.2887697219848633px 0px

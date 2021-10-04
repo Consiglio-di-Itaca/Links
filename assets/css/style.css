@@ -29,6 +29,19 @@ a {
           align-items: center !important;
 }
 
+.big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .simple {
   background-color: #fff;
 }
@@ -117,6 +130,16 @@ body main section .links a {
   place-content: center;
 }
 
+body main section .links a.inEvidenza {
+  background-image: url("../img/BG_inEvidenza.png");
+  background-position: center;
+  background-size: cover;
+}
+
+body main section .links a.inEvidenza p {
+  color: #000;
+}
+
 body main section .links a.new {
   position: relative;
 }
@@ -124,11 +147,14 @@ body main section .links a.new {
 body main section .links a.new::after {
   content: "NOVITÀ";
   font-weight: bold;
-  background: #0ecdc1;
-  padding: 6px 10px;
-  font-size: 10px;
+  background: radial-gradient(67.42% 65.41% at 34.48% 26.69%, #9a4dff 26.56%, #9825ce 100%);
+  -webkit-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  padding: 8px 16px 7px;
+  font-size: 12px;
   position: absolute;
-  top: 0;
+  top: 5px;
   right: -10px;
   -webkit-transform: translate(0%, -50%);
           transform: translate(0%, -50%);

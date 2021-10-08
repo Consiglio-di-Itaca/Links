@@ -40,7 +40,10 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 62px;
+  height: 80px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.295);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.295);
 }
 
 .big p {

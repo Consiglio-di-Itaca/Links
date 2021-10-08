@@ -27,7 +27,9 @@ a {
   display: flex;
   flex-direction: column !important;
   align-items: center;
-  height: 62px;
+  height: 80px;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.295);
   p {
     font-weight: 300 !important;
   }

@@ -99,6 +99,7 @@ body {
                     width: 100%;
                     flex-direction: row;
                     place-content: center;
+                    align-items: center;
                     &.inEvidenza {
                         background-image: url("../img/Quale_Futuro-sfondo.png");
                         background-position: center;
@@ -132,6 +133,9 @@ body {
                     }
                     &.mg {
                         background: linear-gradient( 225deg, #ff7061 0%, #a033ff 50.52%, #0099ff 100%);
+                    }
+                    &.yt {
+                        background-color: #212121;
                     }
                     &.wa {
                         background: #455a64;

@@ -141,6 +141,9 @@ body main section .links a {
       -ms-flex-direction: row;
           flex-direction: row;
   place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body main section .links a.inEvidenza {
@@ -185,6 +188,10 @@ body main section .links a.fb {
 
 body main section .links a.mg {
   background: linear-gradient(225deg, #ff7061 0%, #a033ff 50.52%, #0099ff 100%);
+}
+
+body main section .links a.yt {
+  background-color: #212121;
 }
 
 body main section .links a.wa {

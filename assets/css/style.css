@@ -147,9 +147,10 @@ body main section .links a {
 }
 
 body main section .links a.inEvidenza {
-  background-image: url("../img/Quale_Futuro-sfondo.png");
+  background-color: #ebebeb;
   background-position: center;
   background-size: cover;
+  padding: 16px 0;
 }
 
 body main section .links a.inEvidenza p {

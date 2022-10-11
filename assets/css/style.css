@@ -14,7 +14,6 @@ a {
 
 a {
   text-decoration: underline;
-  color: #fff;
   font-weight: bold;
 }
 
@@ -59,7 +58,7 @@ a {
 }
 
 .simple p {
-  color: #000 !important;
+  color: #000;
 }
 
 body {
@@ -153,10 +152,6 @@ body main section .links a.inEvidenza {
   padding: 16px 0;
 }
 
-body main section .links a.inEvidenza p {
-  color: #fff;
-}
-
 body main section .links a.new {
   position: relative;
 }
@@ -181,18 +176,22 @@ body main section .links a.new::after {
 
 body main section .links a.ig {
   background: linear-gradient(225deg, #1400c8 0%, #b900b4 50.52%, #f50000 100%);
+  color: #fff;
 }
 
 body main section .links a.fb {
   background: #1877f2;
+  color: #fff;
 }
 
 body main section .links a.mg {
   background: linear-gradient(225deg, #ff7061 0%, #a033ff 50.52%, #0099ff 100%);
+  color: #fff;
 }
 
 body main section .links a.yt {
   background-color: #212121;
+  color: #fff;
 }
 
 body main section .links a.wa {
@@ -203,16 +202,27 @@ body main section .links a.f {
   background: #131313;
 }
 
+body main section .links a.f p {
+  color: #fff;
+}
+
 body main section .links a.gh {
   background: #000000;
+}
+
+body main section .links a.gh p {
+  color: #fff;
 }
 
 body main section .links a p {
   font-weight: 600;
   font-size: 18px;
   line-height: 18px;
-  color: #fff;
   margin: 0;
+}
+
+body main section .links a a {
+  color: inherit;
 }
 
 body footer {

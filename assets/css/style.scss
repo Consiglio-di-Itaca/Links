@@ -13,7 +13,6 @@ a {
 
 a {
     text-decoration: underline;
-    color: #fff;
     font-weight: bold;
 }
 
@@ -41,7 +40,7 @@ a {
 .simple {
     background-color: #fff;
     p {
-        color: #000 !important;
+        color: #000;
     }
 }
 
@@ -105,9 +104,6 @@ body {
                         background-position: center;
                         background-size: cover;
                         padding: 16px 0;
-                        p {
-                            color: #fff;
-                        }
                     }
                     &.new {
                         position: relative;
@@ -128,31 +124,43 @@ body {
                     }
                     &.ig {
                         background: linear-gradient( 225deg, #1400c8 0%, #b900b4 50.52%, #f50000 100%);
+                        color: #fff;
                     }
                     &.fb {
                         background: #1877f2;
+                        color: #fff;
                     }
                     &.mg {
                         background: linear-gradient( 225deg, #ff7061 0%, #a033ff 50.52%, #0099ff 100%);
+                        color: #fff;
                     }
                     &.yt {
                         background-color: #212121;
+                        color: #fff;
                     }
                     &.wa {
                         background: #455a64;
                     }
                     &.f {
                         background: #131313;
+                        p {
+                            color: #fff;
+                        }
                     }
                     &.gh {
                         background: #000000;
+                        p {
+                            color: #fff;
+                        }
                     }
                     p {
                         font-weight: 600;
                         font-size: 18px;
                         line-height: 18px;
-                        color: #fff;
                         margin: 0;
+                    }
+                    a {
+                        color: inherit;
                     }
                 }
             }
